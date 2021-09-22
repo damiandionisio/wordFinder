@@ -13,6 +13,7 @@ namespace WordFinder
         {            
             var wf = new WordFinder(Resources.matrix.Split(",").ToList());
 
+
             var result = wf.Find(new List<string>
             {
                 "NICE",
